@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Replace with your Telegram bot token
-TELEGRAM_BOT_TOKEN = "7330880520:AAGK184z_NdgkLHT8-h8zLQakCE0czKpjN8"
+TELEGRAM_BOT_TOKEN = "bot token"
 
 # Initialize the exchange for Binance Futures
 exchange = ccxt.binance({
@@ -79,6 +79,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
